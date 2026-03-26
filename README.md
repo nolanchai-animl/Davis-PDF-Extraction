@@ -7,3 +7,8 @@ I plan to clean up and improve functionality of code next. I also plan to incorp
 *Recently* I have replaced `easyocr` for `pytesseract`. I had to include the `Tesseract-OCR` directory which includes tessearct binaries. Then pytesseract is implemented using uv add pytesseract
 
 To verify tesseract is working run command `.\Tesseract-OCR\tesseract.exe`, not just `tesseract -v` (that didn't work for some reason).
+
+### Currently Working on
+- Implementing SQLite with python
+- working through https://www.sqlitetutorial.net/sqlite-python/
+- on section 2 as of 03/26/2026

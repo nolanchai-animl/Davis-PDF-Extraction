@@ -12,6 +12,7 @@ To verify tesseract is working run command `.\Tesseract-OCR\tesseract.exe`, not 
 03/30
 - Implemented db.py + ocr.py
 - Implement main.py and test
+
 03/28
 - Finished Tutorials
 - starting to create ocr db with files db.py(db init + interaction), ocr.py (read logic), main.py (execute logic)

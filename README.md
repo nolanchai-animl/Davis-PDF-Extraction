@@ -7,3 +7,11 @@ I plan to clean up and improve functionality of code next. I also plan to incorp
 *Recently* I have replaced `easyocr` for `pytesseract`. I had to include the `Tesseract-OCR` directory which includes tessearct binaries. Then pytesseract is implemented using uv add pytesseract
 
 To verify tesseract is working run command `.\Tesseract-OCR\tesseract.exe`, not just `tesseract -v` (that didn't work for some reason).
+
+
+SQLite3 Build Instructions
+1. Install poppler
+- go to link https://github.com/oschwartz10612/poppler-windows/releases
+- download latest Release.zip
+- put bin files on path
+2. run command uv run main.py "pdf\path.pdf"

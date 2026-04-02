@@ -8,17 +8,10 @@ I plan to clean up and improve functionality of code next. I also plan to incorp
 
 To verify tesseract is working run command `.\Tesseract-OCR\tesseract.exe`, not just `tesseract -v` (that didn't work for some reason).
 
-### Currently Working on
-03/30
-- Implemented db.py + ocr.py
-- Implement main.py and test
 
-03/28
-- Finished Tutorials
-- starting to create ocr db with files db.py(db init + interaction), ocr.py (read logic), main.py (execute logic)
-
-03/27
-- Implementing SQLite with python
-- working through https://www.sqlitetutorial.net/sqlite-python/
-- on section 2 as of 03/26/2026
-
+SQLite3 Build Instructions
+1. Install poppler
+- go to link https://github.com/oschwartz10612/poppler-windows/releases
+- download latest Release.zip
+- put bin files on path
+2. run command uv run main.py "pdf\path.pdf"
